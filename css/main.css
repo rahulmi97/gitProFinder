@@ -1,0 +1,113 @@
+/* Global Settings */
+body {
+    margin: 0px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style: none;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+li{
+    margin: 10px auto;
+    border-bottom: 1px solid lightcoral;
+}
+
+li:last-child{
+    border-bottom: none;
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* Generic Settings */
+#header{
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    min-height: 50px;
+}
+.search{
+    text-align: center;
+    margin: 10px 0px;
+    
+}
+.search input{
+
+    width: 100%;
+    height: 30px;
+    border-radius: 5px 5px;
+   border: 1px solid lightgray;
+   outline:none;
+}
+.search input:focus{
+    border: 3px solid lightsalmon;
+}
+.btn{
+    /* width: 13%; */
+    /* height: 30px; */
+    display: flex;
+    background-color: salmon;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border: 2px solid lightsalmon;
+   
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   justify-content: flex-start;
+    border: 2px solid salmon;
+    /* background-color: red; */
+}
+.col{
+    width: 100%;
+    border: 2px solid lightsalmon;
+}
+.col-1{
+    flex: 1;
+
+}
+.col-2{
+    flex: 2;
+    
+}
+#repo{
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid salmon;
+}
+#error{
+    background-color: red;
+    text-align: center;
+    
+}
